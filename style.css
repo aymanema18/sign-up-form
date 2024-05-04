@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "odin";
+    src: url(fonts/Norse-Bold.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.right-div, .left-div {
+    flex: 1;
+}
+
+.left-div {
+    background: url(images/bg-img-jpg);
+}
+
+
+.logo-div {
+    background-color: rgb(54, 52, 52, 0.6);
+    max-height: 120px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 20%;
+}
+
+.logo-div div {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    height: 100px;
+    width: auto;
+}
+
+img + p {
+    font-size: 74px;
+    color: white;
+    font-family: "odin", sans-serif;
+}
+
