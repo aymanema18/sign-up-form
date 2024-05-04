@@ -18,28 +18,39 @@
         </div>
         <div class="right-div">
             <div class="text-div">
-                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
-                <p>Sign up <em>now</em> to get started.</p>
-                <p>You <em>know</em> you want to.</p>
+                <div>
+                    <p class="txt">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
+                    <p>Sign up <em>now</em> to get started.</p>
+                    <p>You <em>know</em> you want to.</p>
+                </div>
             </div>
             <div class="form-div">
                 <form action="" method="">
-                    <div class="title-div">
-                        <h2>let's do this!</h2>
-                    </div>
-                    <div class="input-row-div">
-                        <p><label for="user_fn"></label>FIRST NAME<input type="text" name="user-first-name" id="user_fn"></p>
-                        <p><label for="user_ln"></label>LAST NAME<input type="text" name="user-last-name" id="user_ln"></p>
-                    </div>
-                    <div class="input-row-div">
-                        <p><label for="email"></label>EMAIL<input type="email" name="user-email" id="email"></p>
-                        <p><label for="user-pn"></label>PHONE NUMBER<input type="tel" name="user-phone-number" id="user-pn"></p>
-                    </div>
-                    <div class="input-row-div">
-                        <p><label for="user-psw"></label>PASSWORD<input type="password" name="user-password" id="user-psw"></p>
-                        <p><label for="user-psw-2"></label>CONFIRM PASSWORD<input type="password" id="user-psw-2"></p>
+                    <div class="input-div">
+                        <div class="title-div">
+                            <h2>Let's do this!</h2>
+                        </div>
+                        <div class="input-row-div">
+                            <div>
+                                <p><label for="user_fn"></label><span class="label-txt">FIRST NAME</span><input type="text" name="user-first-name" id="user_fn"></p>
+                                <p><label for="user_ln"></label><span class="label-txt">LAST NAME</span><input type="text" name="user-last-name" id="user_ln"></p>
+                            </div>
+                        </div>
+                        <div class="input-row-div">
+                            <div>
+                                <p><label for="email"></label><span class="label-txt">EMAIL</span><input type="email" name="user-email" id="email"></p>
+                                <p><label for="user-pn"></label><span class="label-txt">PHONE NUMBER</span><input type="tel" name="user-phone-number" id="user-pn"></p>
+                            </div>
+                        </div>
+                        <div class="input-row-div">
+                            <div>
+                                <p><label for="user-psw"></label><span class="label-txt">PASSWORD *</span><input type="password" name="user-password" id="user-psw" minlength="8" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" required><output>Minimum is eight characters.</output></p>
+                                <p><label for="user-psw-2"></label><span class="label-txt">CONFIRM PASSWORD</span><input type="password" id="user-psw-2" minlength="8" required></p>
+                            </div>
+                        </div>
                     </div>
                     <div class="button-div"><button type="submit">Create Account</button></div>
+                    <div class="login-div"><p>Already have an account? <a href="#"> Log in</a></p></div>
                 </form>
             </div>
         </div>
