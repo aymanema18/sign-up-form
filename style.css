@@ -90,7 +90,7 @@ img + p {
 
 .form-div {
     font-family: var(--fonts);  
-    color: rgb(17, 17, 17);
+    color: rgb(60 60 60);
 }
 
 .input-div {
@@ -148,6 +148,7 @@ button {
     padding: 0.7em 1.9rem;
     margin: 30px 0 0 40px;
     box-shadow: 0 3px 10px 0 rgb(0, 0, 0, 0.3);
+    cursor: pointer;
 }
 
 .login-div {
@@ -175,4 +176,5 @@ input:invalid {
 
 output {
     font-size: 10px;
+    color: red;
 }
